@@ -12,14 +12,14 @@ const projects = [
     name: "Tenzy",
     description:
       "A ReactJS Based Web game where you roll 10 dices ,select a die number , separate dices with same number and re-roll remaining until all the die show same face.",
-    image: "/public/tenzy.png",
+    image: "/public/tenzy.PNG",
     github: "https://github.com/CJ-47/Tenzy",
     link: "https://cj-47.github.io/Tenzy/",
   },
   {
     name: "Buddy4Chat",
     description: "A Chat Application using Node.js and Socket.io running on local machine",
-    image: "/buddy.png",
+    image: "/buddy.PNG",
     github: "https://github.com/CJ-47/ChatApp",
     link: "",
   },
