@@ -27,7 +27,7 @@ const projects = [
     name: "Blood Donor Android Application",
     description:
       "An Android Application for Donating-Receiving Blood Donation requests built with FireBase Integration for authentication and realtime database.",
-    image: "/donor.png",
+    image: "/donor.PNG",
     github: "https://www.github.com/CJ-47/BloodDonorApp",
     link: "",
   },
