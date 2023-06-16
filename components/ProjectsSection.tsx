@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import donor from "../public/donor.png"
 //import blddnr from "/image/donor.png"
 //import tenzy from "/image/tenzy.png"
 //import buddy from "/image/buddy.png"
@@ -26,7 +27,7 @@ const projects = [
     name: "Blood Donor Android Application",
     description:
       "An Android Application for Donating-Receiving Blood Donation requests built with FireBase Integration for authentication and realtime database.",
-    image: "donor.png",
+    image: donor,
     github: "https://www.github.com/CJ-47/BloodDonorApp",
     link: "",
   },
