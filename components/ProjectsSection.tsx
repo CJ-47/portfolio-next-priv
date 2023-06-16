@@ -3,22 +3,22 @@ import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
-import blddnr from "../public/donor.png"
-import tenzy from "../public/tenzy.png"
-import buddy from "../public/buddy.png"
+//import blddnr from "/image/donor.png"
+//import tenzy from "/image/tenzy.png"
+//import buddy from "/image/buddy.png"
 const projects = [
   {
     name: "Tenzy",
     description:
       "A ReactJS Based Web game where you roll 10 dices ,select a die number , separate dices with same number and re-roll remaining until all the die show same face.",
-    image: tenzy,
+    image: "/tenzy.png",
     github: "https://github.com/CJ-47/Tenzy",
     link: "https://cj-47.github.io/Tenzy/",
   },
   {
     name: "Buddy4Chat",
     description: "A Chat Application using Node.js and Socket.io running on local machine",
-    image: buddy,
+    image: "/buddy.png",
     github: "https://github.com/CJ-47/ChatApp",
     link: "",
   },
@@ -26,7 +26,7 @@ const projects = [
     name: "Blood Donor Android Application",
     description:
       "An Android Application for Donating-Receiving Blood Donation requests built with FireBase Integration for authentication and realtime database.",
-    image: blddnr,
+    image: "donor.png",
     github: "https://www.github.com/CJ-47/BloodDonorApp",
     link: "",
   },
